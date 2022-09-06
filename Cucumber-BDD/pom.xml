@@ -53,13 +53,13 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!--<suiteXmlFile>src/test/resources/test_suite/serial_testng_suite.xml</suiteXmlFile>-->
-                        <suiteXmlFile>src/test/resources/test_suite/parallel_testng_suite.xml</suiteXmlFile>
+                         <suiteXmlFile>src/test/resources/test_suite/parallel_testng_suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <properties>
                         <property>
                             <!--# This property is only required for TestNg parallel execution-->
-                            <name>dataproviderthreadcount</name>
-                            <value>3</value>
+                             <name>dataproviderthreadcount</name>
+                             <value>3</value>
                         </property>
                     </properties>
                 </configuration>
