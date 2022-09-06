@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @SomeshKumarN
-- 👀 I’m interested in Ptyhon
-- 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on github
-- 📫 How to reach me somesh022@hotmail.com
-
-<!---
-SomeshKumarN/SomeshKumarN is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This repo is having the Cucumber with java in different execution procedure.
+- Cucumber_Junit_Serial approach
+- Cucumber_Junit_Parallel approach
+- Cucumber_TestNg_Serial  approach using runner file
+- Cucumber_TestNg_Serial approach using suite file
+- Cucumber_TestNg_Serial approach using pom file
+- Cucumber_TestNg_Parallel approach using runner file
+- Cucumber_TestNg_Parallel approach using suite file
+- Cucumber_TestNg_Parallel approach using pom file
