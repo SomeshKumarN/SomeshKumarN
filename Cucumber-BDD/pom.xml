@@ -28,7 +28,7 @@
             <version>7.5.0</version>
             <scope>test</scope>
         </dependency>
-        <!-- These dependency is required for Junit(only parallel) with BDD  -->
+        <!-- This dependency is required for Junit(only parallel) with BDD  -->
         <dependency>
             <groupId>io.github.prashant-ramcharan</groupId>
             <artifactId>courgette-jvm</artifactId>
@@ -36,13 +36,22 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- These dependency is required for TestNg(serial & parallel) with BDD  -->
+        <!-- This dependency is required for TestNg(serial & parallel) with BDD  -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>7.4.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- This dependency is required for Api Automation with BDD  -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.1.1</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
